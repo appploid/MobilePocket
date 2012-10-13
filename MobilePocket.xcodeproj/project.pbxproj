@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC7A9BA21621E5AB004DA6FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7A9BA11621E5AB004DA6FF /* UIKit.framework */; };
+		EC7A9BA41621E5AB004DA6FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7A9BA31621E5AB004DA6FF /* Foundation.framework */; };
+		EC7A9BA61621E5AB004DA6FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7A9BA51621E5AB004DA6FF /* CoreGraphics.framework */; };
+		EC7A9BAC1621E5AB004DA6FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC7A9BAA1621E5AB004DA6FF /* InfoPlist.strings */; };
+		EC7A9BAE1621E5AB004DA6FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7A9BAD1621E5AB004DA6FF /* main.m */; };
+		EC7A9BB21621E5AB004DA6FF /* MPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7A9BB11621E5AB004DA6FF /* MPAppDelegate.m */; };
+		EC7A9BB41621E5AB004DA6FF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EC7A9BB31621E5AB004DA6FF /* Default.png */; };
+		EC7A9BB61621E5AB004DA6FF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC7A9BB51621E5AB004DA6FF /* Default@2x.png */; };
+		EC7A9BB81621E5AB004DA6FF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC7A9BB71621E5AB004DA6FF /* Default-568h@2x.png */; };
+		EC7A9BBB1621E5AB004DA6FF /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7A9BB91621E5AB004DA6FF /* MainStoryboard_iPhone.storyboard */; };
+		EC7A9BBE1621E5AB004DA6FF /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7A9BBC1621E5AB004DA6FF /* MainStoryboard_iPad.storyboard */; };
+		EC7A9BC11621E5AB004DA6FF /* MPFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7A9BC01621E5AB004DA6FF /* MPFirstViewController.m */; };
+		EC7A9BC31621E5AB004DA6FF /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = EC7A9BC21621E5AB004DA6FF /* first.png */; };
+		EC7A9BC51621E5AB004DA6FF /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC7A9BC41621E5AB004DA6FF /* first@2x.png */; };
+		EC7A9BC81621E5AB004DA6FF /* MPSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7A9BC71621E5AB004DA6FF /* MPSecondViewController.m */; };
+		EC7A9BCA1621E5AB004DA6FF /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = EC7A9BC91621E5AB004DA6FF /* second.png */; };
+		EC7A9BCC1621E5AB004DA6FF /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC7A9BCB1621E5AB004DA6FF /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC7A9B9D1621E5AB004DA6FF /* MobilePocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobilePocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7A9BA11621E5AB004DA6FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC7A9BA31621E5AB004DA6FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC7A9BA51621E5AB004DA6FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC7A9BA91621E5AB004DA6FF /* MobilePocket-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobilePocket-Info.plist"; sourceTree = "<group>"; };
+		EC7A9BAB1621E5AB004DA6FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC7A9BAD1621E5AB004DA6FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC7A9BAF1621E5AB004DA6FF /* MobilePocket-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobilePocket-Prefix.pch"; sourceTree = "<group>"; };
+		EC7A9BB01621E5AB004DA6FF /* MPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPAppDelegate.h; sourceTree = "<group>"; };
+		EC7A9BB11621E5AB004DA6FF /* MPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPAppDelegate.m; sourceTree = "<group>"; };
+		EC7A9BB31621E5AB004DA6FF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EC7A9BB51621E5AB004DA6FF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EC7A9BB71621E5AB004DA6FF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EC7A9BBA1621E5AB004DA6FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		EC7A9BBD1621E5AB004DA6FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		EC7A9BBF1621E5AB004DA6FF /* MPFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPFirstViewController.h; sourceTree = "<group>"; };
+		EC7A9BC01621E5AB004DA6FF /* MPFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPFirstViewController.m; sourceTree = "<group>"; };
+		EC7A9BC21621E5AB004DA6FF /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		EC7A9BC41621E5AB004DA6FF /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		EC7A9BC61621E5AB004DA6FF /* MPSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPSecondViewController.h; sourceTree = "<group>"; };
+		EC7A9BC71621E5AB004DA6FF /* MPSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPSecondViewController.m; sourceTree = "<group>"; };
+		EC7A9BC91621E5AB004DA6FF /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		EC7A9BCB1621E5AB004DA6FF /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC7A9B9A1621E5AB004DA6FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7A9BA21621E5AB004DA6FF /* UIKit.framework in Frameworks */,
+				EC7A9BA41621E5AB004DA6FF /* Foundation.framework in Frameworks */,
+				EC7A9BA61621E5AB004DA6FF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC7A9B921621E5AB004DA6FF = {
+			isa = PBXGroup;
+			children = (
+				EC7A9BA71621E5AB004DA6FF /* MobilePocket */,
+				EC7A9BA01621E5AB004DA6FF /* Frameworks */,
+				EC7A9B9E1621E5AB004DA6FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC7A9B9E1621E5AB004DA6FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC7A9B9D1621E5AB004DA6FF /* MobilePocket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC7A9BA01621E5AB004DA6FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC7A9BA11621E5AB004DA6FF /* UIKit.framework */,
+				EC7A9BA31621E5AB004DA6FF /* Foundation.framework */,
+				EC7A9BA51621E5AB004DA6FF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC7A9BA71621E5AB004DA6FF /* MobilePocket */ = {
+			isa = PBXGroup;
+			children = (
+				EC7A9BB01621E5AB004DA6FF /* MPAppDelegate.h */,
+				EC7A9BB11621E5AB004DA6FF /* MPAppDelegate.m */,
+				EC7A9BB91621E5AB004DA6FF /* MainStoryboard_iPhone.storyboard */,
+				EC7A9BBC1621E5AB004DA6FF /* MainStoryboard_iPad.storyboard */,
+				EC7A9BBF1621E5AB004DA6FF /* MPFirstViewController.h */,
+				EC7A9BC01621E5AB004DA6FF /* MPFirstViewController.m */,
+				EC7A9BC21621E5AB004DA6FF /* first.png */,
+				EC7A9BC41621E5AB004DA6FF /* first@2x.png */,
+				EC7A9BC61621E5AB004DA6FF /* MPSecondViewController.h */,
+				EC7A9BC71621E5AB004DA6FF /* MPSecondViewController.m */,
+				EC7A9BC91621E5AB004DA6FF /* second.png */,
+				EC7A9BCB1621E5AB004DA6FF /* second@2x.png */,
+				EC7A9BA81621E5AB004DA6FF /* Supporting Files */,
+			);
+			path = MobilePocket;
+			sourceTree = "<group>";
+		};
+		EC7A9BA81621E5AB004DA6FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC7A9BA91621E5AB004DA6FF /* MobilePocket-Info.plist */,
+				EC7A9BAA1621E5AB004DA6FF /* InfoPlist.strings */,
+				EC7A9BAD1621E5AB004DA6FF /* main.m */,
+				EC7A9BAF1621E5AB004DA6FF /* MobilePocket-Prefix.pch */,
+				EC7A9BB31621E5AB004DA6FF /* Default.png */,
+				EC7A9BB51621E5AB004DA6FF /* Default@2x.png */,
+				EC7A9BB71621E5AB004DA6FF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC7A9B9C1621E5AB004DA6FF /* MobilePocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7A9BCF1621E5AB004DA6FF /* Build configuration list for PBXNativeTarget "MobilePocket" */;
+			buildPhases = (
+				EC7A9B991621E5AB004DA6FF /* Sources */,
+				EC7A9B9A1621E5AB004DA6FF /* Frameworks */,
+				EC7A9B9B1621E5AB004DA6FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobilePocket;
+			productName = MobilePocket;
+			productReference = EC7A9B9D1621E5AB004DA6FF /* MobilePocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC7A9B941621E5AB004DA6FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Taras Rudakevych";
+			};
+			buildConfigurationList = EC7A9B971621E5AB004DA6FF /* Build configuration list for PBXProject "MobilePocket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC7A9B921621E5AB004DA6FF;
+			productRefGroup = EC7A9B9E1621E5AB004DA6FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC7A9B9C1621E5AB004DA6FF /* MobilePocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC7A9B9B1621E5AB004DA6FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7A9BAC1621E5AB004DA6FF /* InfoPlist.strings in Resources */,
+				EC7A9BB41621E5AB004DA6FF /* Default.png in Resources */,
+				EC7A9BB61621E5AB004DA6FF /* Default@2x.png in Resources */,
+				EC7A9BB81621E5AB004DA6FF /* Default-568h@2x.png in Resources */,
+				EC7A9BBB1621E5AB004DA6FF /* MainStoryboard_iPhone.storyboard in Resources */,
+				EC7A9BBE1621E5AB004DA6FF /* MainStoryboard_iPad.storyboard in Resources */,
+				EC7A9BC31621E5AB004DA6FF /* first.png in Resources */,
+				EC7A9BC51621E5AB004DA6FF /* first@2x.png in Resources */,
+				EC7A9BCA1621E5AB004DA6FF /* second.png in Resources */,
+				EC7A9BCC1621E5AB004DA6FF /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC7A9B991621E5AB004DA6FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7A9BAE1621E5AB004DA6FF /* main.m in Sources */,
+				EC7A9BB21621E5AB004DA6FF /* MPAppDelegate.m in Sources */,
+				EC7A9BC11621E5AB004DA6FF /* MPFirstViewController.m in Sources */,
+				EC7A9BC81621E5AB004DA6FF /* MPSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC7A9BAA1621E5AB004DA6FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7A9BAB1621E5AB004DA6FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC7A9BB91621E5AB004DA6FF /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7A9BBA1621E5AB004DA6FF /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EC7A9BBC1621E5AB004DA6FF /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7A9BBD1621E5AB004DA6FF /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC7A9BCD1621E5AB004DA6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC7A9BCE1621E5AB004DA6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC7A9BD01621E5AB004DA6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobilePocket/MobilePocket-Prefix.pch";
+				INFOPLIST_FILE = "MobilePocket/MobilePocket-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC7A9BD11621E5AB004DA6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobilePocket/MobilePocket-Prefix.pch";
+				INFOPLIST_FILE = "MobilePocket/MobilePocket-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC7A9B971621E5AB004DA6FF /* Build configuration list for PBXProject "MobilePocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7A9BCD1621E5AB004DA6FF /* Debug */,
+				EC7A9BCE1621E5AB004DA6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7A9BCF1621E5AB004DA6FF /* Build configuration list for PBXNativeTarget "MobilePocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7A9BD01621E5AB004DA6FF /* Debug */,
+				EC7A9BD11621E5AB004DA6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC7A9B941621E5AB004DA6FF /* Project object */;
+}
